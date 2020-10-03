@@ -9,19 +9,19 @@ This project is a starting point for a Flutter application.
 You gotta need to know the basics first!
 
 # Contents
-   Intro and Setup
-   Dart the Language
-   Android Studio SDK
-   Scaffhold and AppBar Widgets (Material Design)
-   Colors and Fonts
-   Stateless Widgets vs Stateful Widgets (Hot Reloading)
-   Images and Assets
-   Buttons & Icons
-   Containers & Padding
-   Rows
-   Columns
-   Flutter Shortcuts
-   Expanded Widgets
+   -Intro and Setup
+   -Dart the Language
+   -Android Studio SDK
+   -Scaffhold and AppBar Widgets (Material Design)
+   -Colors and Fonts
+   -Stateless Widgets vs Stateful Widgets (Hot Reloading)
+   -Images and Assets
+   -Buttons & Icons
+   -Containers & Padding
+   -Rows
+   -Columns
+   -Flutter Shortcuts
+   -Expanded Widgets
 
 A few resources to get you started if this is your first Flutter project:
 
