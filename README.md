@@ -8,6 +8,8 @@ This is a primer for Flutter, syntax and nesting widgets.
 This project is a starting point for a Flutter application.
 You gotta need to know the basics first!
 
+![flutterMindMap](mindMap/flutterMindMap.png)
+
 # Contents
    -Intro and Setup
    -Dart the Language
