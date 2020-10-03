@@ -21,26 +21,15 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('The first Flutter Vibe'),
+        title: Text('Dart Primer / Flutter'),
         centerTitle: true,
         backgroundColor: Colors.deepOrange,
       ),
-      body: Center(
-        child: Text(
-          'this now hot reloads',
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.grey[600],
-            fontFamily: 'CourierPrime',
-          ),
-        ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {  },
-        child: Text('click'),
-        backgroundColor: Colors.deepOrange,
+      body: Container(
+        padding: EdgeInsets.fromLTRB(50.0, 50.0, 60.0, 10.0),
+        margin: EdgeInsets.all(50.0),
+        color: Colors.amber[600],
+        child: Text('Hello'),
       ),
     );
   }
