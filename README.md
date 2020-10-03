@@ -24,6 +24,7 @@ You gotta need to know the basics first!
    -Columns
    -Flutter Shortcuts
    -Expanded Widgets
+   
   
 
 A few resources to get you started if this is your first Flutter project:
