@@ -1,4 +1,4 @@
-# flutter_primer_for_NCI
+# flutterPrimer
 
 A Flutter mobile application for National College Of Ireland (Mobile Dev)
 This is a primer for Flutter, syntax and nesting widgets.
