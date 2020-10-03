@@ -11,18 +11,18 @@ You gotta need to know the basics first!
 ![flutterMindMap](mindMap/flutterMindMap.png)
 
 # Contents
-Intro and Setup
-Dart the Language
-Android Studio SDK
-Scaffhold and AppBar Widgets (Material Design)
-Colors and Fonts
-Stateless Widgets vs Stateful Widgets (Hot Reloading)
-Images and Assets
-Buttons & Icons
-Containers & Padding
-Rows
-Columns
-Flutter Shortcuts
+Intro and Setup /
+Dart the Language /
+Android Studio SDK /
+Scaffhold and AppBar Widgets (Material Design) /
+Colors and Fonts /
+Stateless Widgets vs Stateful Widgets (Hot Reloading) /
+Images and Assets /
+Buttons & Icons /
+Containers & Padding /
+Rows /
+Columns /
+Flutter Shortcuts /
 Expanded Widgets
    
   
