@@ -11,8 +11,18 @@ void main() => runApp(MaterialApp(
       home: ProfileCard(),
     ));
 
-// Create a stateless widget
-class ProfileCard extends StatelessWidget {
+// Create a stateless widget (and now converted to a stateful one!)
+class ProfileCard extends StatefulWidget {
+  @override
+  // returning a instance of the state
+  _ProfileCardState createState() => _ProfileCardState();
+}
+
+class _ProfileCardState extends State<ProfileCard> {
+
+  // Set number to 0 (loading state)
+  int numberLevel = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,6 +32,17 @@ class ProfileCard extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.grey[800],
         elevation: 0.0,
+      ),
+      floatingActionButton: FloatingActionButton(
+        // Inside a counter press... setting the state of a element to change the value
+        onPressed: () {
+          setState(() {
+            // Every time set state is called the build is trigger to the new state
+            return numberLevel += 1;
+          });
+        },
+        child: Icon(Icons.add),
+        backgroundColor: Colors.grey[800],
       ),
       body: Padding(
         padding: EdgeInsets.fromLTRB(30, 40, 30, 0),
@@ -69,7 +90,7 @@ class ProfileCard extends StatelessWidget {
             ),
             SizedBox(height: 10.0), // added spaced between elements
             Text(
-              "8",
+              '$numberLevel', // represent the int declared at the top of counter
               style: TextStyle(
                 color: Colors.yellow,
                 letterSpacing: 2.0,
@@ -94,7 +115,7 @@ class ProfileCard extends StatelessWidget {
                   ),
                 ),
               ],
-            )
+            ),
           ],
         ),
       ),
